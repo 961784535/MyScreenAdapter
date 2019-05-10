@@ -15,14 +15,17 @@
 
         <!--屏幕适配-->
         <activity android:name=".ScreenActivity">
+
+        </activity>
+        <!--屏幕适配 虚拟按键-->
+        <!--屏幕适配  刘海屏-->
+        <activity android:name=".MetaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--屏幕适配 虚拟按键-->
-        <!--屏幕适配  刘海屏-->
     </application>
 
 
