@@ -14,17 +14,19 @@
         </activity>
 
         <!--屏幕适配-->
-        <activity android:name=".ScreenActivity">
-
-        </activity>
-        <!--屏幕适配 虚拟按键-->
-        <!--屏幕适配  刘海屏-->
-        <activity android:name=".MetaActivity">
+        <activity android:name=".ScreenActivity"
+            android:label="获取基本的屏幕尺寸">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <!--屏幕适配 虚拟按键-->
+        <!--屏幕适配  刘海屏-->
+        <activity android:name=".MetaActivity"
+            android:label="刘海屏适配">
+
         </activity>
     </application>
 
